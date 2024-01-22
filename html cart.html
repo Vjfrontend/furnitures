@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="css.style.css">
+</head>
+<body>
+    <header class="navbar">
+    <ul class="list">
+      <div class="li-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about page.html">ABOUT</a></li>
+        <li><a href="contact.page.html">CONTACT</a></li>
+      <li><a href="html cart.html"><i class="fa-solid fa-cart-shopping" style="color: #f5b608;"></i></a></li>
+    </div>
+    </ul>
+</header>
+<div class="cart-form">
+<form action="/your-server-side-payment-handler" method="post">
+  <label for="card-number">Card Number</label>
+  <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+
+  <label for="expiry-date">Expiry Date</label>
+  <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+  <label for="cvv">CVV</label>
+  <input type="text" id="cvv" name="cvv" placeholder="123" required>
+<div class="payment">
+  <button type ="submit">Pay Now</button></div>
+</form>
+</div>
+</body>
+</html>

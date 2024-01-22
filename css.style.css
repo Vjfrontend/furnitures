@@ -1,0 +1,249 @@
+ *{
+    margin: 0;padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+ @media screen and (max-width:500px){
+    /* .responsiveness{
+        font-size: large; */
+        .navbar a{
+            font-size: 12px;
+            padding: 0;
+            margin: 0;
+        }
+        i{
+            font-size: 40px;
+            justify-content: center;
+            position: relative; /* or position: absolute; */
+    
+        }
+        .font{
+            font-size: 10px;
+        }
+
+    
+    }
+/* }
+  */
+  @media screen and (max-width:300px){
+    /* .responsiveness{
+        font-size: large; */
+        .navbar a{
+            font-size: 12px;
+            padding: 0;
+            min-width: 100%;
+            margin: 0;
+        }
+        .font{
+            height: 30vh;
+            background:url(background\ .jpg) ;
+            display: flex;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+
+    }
+    i{
+        font-size: 40px;
+        justify-content: center;
+        position: relative; /* or position: absolute; */
+
+    }
+    ;
+    }
+        
+    
+    
+  
+ 
+    
+ .navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    
+}
+.navbar .li-list{
+    list-style: none;
+     display:inline-flex ;  
+     text-decoration: none; 
+
+ }
+.navbar .list{
+    
+     display: inline-flex;
+     padding: 15px 15px;
+    }
+
+.navbar a {
+    /* color: rgb(14, 13, 13); */
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* margin:0px  40px; */
+}
+.navbar a:hover{
+    background-color:white;
+    color: white(192, 188, 188, 0.788);
+}
+.font{
+    height: 60vh;
+    background:url(pexels-wendy-wei-2959583.jpg) ;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+  h1 a{
+    display:inline-flex ;  
+    text-decoration: none;  
+    text-align: center;  
+    color: rgb(236, 234, 234);
+}
+
+span{
+    color: beige;
+}
+
+  img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+ 
+  .img-gallery {
+    display: flex;
+    gap: 15px;
+    padding: 0 15px;
+    max-width: 1250px;
+     margin: 50px auto; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+ .text,a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+  .img-gallery .img-card{
+    justify-content: center;
+    align-items: center;
+
+  }
+  img{
+    animation: pulse 15s ;}
+    @keyframes pulse {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);
+        }
+        200%{
+            transform: scale(1);
+        }
+        
+    }
+    i{
+        font-size: 30px;
+        justify-content: center;
+        position: relative;
+        /* left: 200px;  */
+        
+          
+    }
+    .font span{
+        padding: 0 15px;
+        max-width: 760;
+        text-align: center;
+        position: relative; 
+     }
+     .generate-btn{
+        font-size: 20px;
+        outline: none;
+        border: none;
+        color: #0a0a0a;
+        font-weight:500 ;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        background: rgb(163, 158, 141);
+    }
+    .video{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        overflow: hidden; 
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        margin: 20px; 
+
+    } 
+    .about-text{
+        margin: 15px 5px;
+        padding: 15px 15px;
+    }
+    .contact-list{
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    .payment {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+    .cart-form{
+        font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+    }
